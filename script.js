@@ -8,23 +8,21 @@ document.addEventListener('DOMContentLoaded', () => {
         "What is your most embarrassing moment?",
         "Who do you have a crush on?",
         "Have you ever lied to your best friend?",
-        "What is the most childish thing you still do?","At what age did you lose your virginity?","How many people have you slept with","What is the best type of underwear?"
+        "What is the most childish thing you still do?",
+        "At what age did you lose your virginity?",
+        "How many people have you slept with",
+        "What is the best type of underwear?"
     ];
-    /*Lick the soap.
-Trade an item of clothing with the player to your right.
-Practice planks for one minute.
-Smell the other player's bare feet.
-Choose someone in the group to spank you.
-Record the scene where you are blindfolded and put on makeup.
-Open your Instagram or Facebook and like each of your ex's posts.
-Do the weirdest yoga pose you've ever done.
- */
+
     const dares = [
         "Do 20 pushups.",
         "Sing a song loudly.",
         "Dance for 1 minute.",
         "Do an impression of someone until someone can guess who you are.",
-        "Let the person to your right draw on your face with a pen.","Trade an item of clothing with the player to your right.","Smell the other player's bare feet.","Open your Instagram or Facebook and like each of your ex's posts"
+        "Let the person to your right draw on your face with a pen.",
+        "Trade an item of clothing with the player to your right.",
+        "Smell the other player's bare feet.",
+        "Open your Instagram or Facebook and like each of your ex's posts"
     ];
 
     truthBtn.addEventListener('click', () => {
