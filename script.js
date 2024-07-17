@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     let countdown;
-    const timeLimit = 300; // 5 minutes in seconds
+    const timeLimit = 120; // 2 minutes in seconds
 
     truthBtn.addEventListener('click', () => {
         startTimer(timeLimit);
