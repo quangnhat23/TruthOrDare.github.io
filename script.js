@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const truthBtn = document.getElementById('truth-btn');
     const dareBtn = document.getElementById('dare-btn');
     const resultDiv = document.getElementById('result');
+    const timerDiv = document.getElementById('timer');
 
     const truths = [
         "What is your biggest fear?",
@@ -25,13 +26,34 @@ document.addEventListener('DOMContentLoaded', () => {
         "Open your Instagram or Facebook and like each of your ex's posts"
     ];
 
+
+    let countdown;
+    const timeLimit = 300; // 5 minutes in seconds
+
     truthBtn.addEventListener('click', () => {
+        startTimer(timeLimit);
         const randomTruth = truths[Math.floor(Math.random() * truths.length)];
         resultDiv.textContent = `Truth: ${randomTruth}`;
     });
 
     dareBtn.addEventListener('click', () => {
+        startTimer(timeLimit);
         const randomDare = dares[Math.floor(Math.random() * dares.length)];
         resultDiv.textContent = `Dare: ${randomDare}`;
     });
+
+    function startTimer(duration) {
+        clearInterval(countdown);
+        let timeRemaining = duration;
+        countdown = setInterval(() => {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            timerDiv.textContent = `Time left: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            if (timeRemaining <= 0) {
+                clearInterval(countdown);
+                resultDiv.textContent = "Time's up! Next player's turn.";
+            }
+            timeRemaining--;
+        }, 1000);
+    }
 });
