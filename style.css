@@ -30,9 +30,15 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color:pink;
   color: #fff;
   font-size: 16px;
+}
+.background-image {
+    width: 100px;  /* Set width to 100px */
+    height: 100px;  /* Set height to 100px */
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn:hover {
