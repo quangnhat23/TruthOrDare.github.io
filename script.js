@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Let the person to your right draw on your face with a pen.",
         "Trade an item of clothing with the player to your right.",
         "Smell the other player's bare feet.",
-        "Open your Instagram or Facebook and like each of your ex's posts"
+        "Open your Instagram or Facebook and like each of your ex's posts",
+        "Call your parent and say I love you"
     ];
 
 
