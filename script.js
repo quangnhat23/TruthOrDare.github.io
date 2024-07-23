@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "What is the most childish thing you still do?",
         "At what age did you lose your virginity?",
         "How many people have you slept with",
-        "What is the best type of underwear?"
+        "What is the best type of underwear?",
+        "What is the weirdest trend you've ever participated in?",
+        "What is that one thing you felt guilty of yourself?"
     ];
 
     const dares = [
