@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Trade an item of clothing with the player to your right.",
         "Smell the other player's bare feet.",
         "Open your Instagram or Facebook and like each of your ex's posts",
-        "Call your parent and say I love you"
+        "Call your parent and say I love you",
+        "Give another player your phone and let them send a social media DM to anyone they want."
     ];
 
 
