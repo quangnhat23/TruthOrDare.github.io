@@ -5,29 +5,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const timerDiv = document.getElementById('timer');
 
     const truths = [
-        "What is your biggest fear?",
-        "What is your most embarrassing moment?",
-        "Who do you have a crush on?",
-        "Have you ever lied to your best friend?",
-        "What is the most childish thing you still do?",
-        "At what age did you lose your virginity?",
-        "How many people have you slept with",
-        "What is the best type of underwear?",
-        "What is the weirdest trend you've ever participated in?",
-        "What is that one thing you felt guilty of yourself?"
+        "What is something you've always wanted to try but haven't yet?",
+        "What is your biggest pet peeve?",
+        "Have you ever had a secret admirer?",
+        "What is the most spontaneous thing you've ever done?",
+        "What is one thing you would change about yourself?",
+        "What was the last lie you told?",
+        "If you could live anywhere in the world, where would it be?",
+        "What is the most embarrassing thing you've done in front of someone you like?",
+        "What is a talent you have that most people don't know about?",
+        "What was your first impression of the person to your left?"
     ];
 
+
     const dares = [
-        "Do 20 pushups.",
-        "Sing a song loudly.",
-        "Dance for 1 minute.",
-        "Do an impression of someone until someone can guess who you are.",
-        "Let the person to your right draw on your face with a pen.",
-        "Trade an item of clothing with the player to your right.",
-        "Smell the other player's bare feet.",
-        "Open your Instagram or Facebook and like each of your ex's posts",
-        "Call your parent and say I love you",
-        "Give another player your phone and let them send a social media DM to anyone they want."
+        "Do 15 pushups.",
+        "Sing the chorus of a popular song in a funny voice.",
+        "Do a silly dance for 30 seconds.",
+        "Speak in an accent until your next turn.",
+        "Let someone in the group redo your hairstyle.",
+        "Do a dramatic reading of a random text message from your phone.",
+        "Eat a spoonful of a condiment of the group’s choosing.",
+        "Try to lick your elbow.",
+        "Act out a scene from your favorite movie.",
+        "Give the person to your right a sincere compliment.", "Call your parent and say I love you"
     ];
 
 
